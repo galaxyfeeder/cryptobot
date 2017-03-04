@@ -1,0 +1,18 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "description": "Slack bot that tells you things about cryptocurrencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "author": "Gabriel Esteban <yufuven@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.5.1"
+  }
+}
