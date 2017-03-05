@@ -4,7 +4,7 @@
   "description": "Slack bot that tells you things about cryptocurrencies.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,8 @@
   "author": "Gabriel Esteban <yufuven@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "botkit": "^0.5.1"
+    "autobahn": "^0.9.4",
+    "botkit": "^0.5.1",
+    "dotenv": "^4.0.0"
   }
 }
